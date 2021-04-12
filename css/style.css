@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-color: #1d1e22;
+  }
+
+  #main {
+      height: 300px;
+      width: auto;
+  }
+
+  #parallax {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/pictures/ss_border.png"), url("/pictures/ss_words.png"), url("/pictures/ss_both_use.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+    background-size: 80%;
+    background-color: rgb(231, 189, 109);
+  }
